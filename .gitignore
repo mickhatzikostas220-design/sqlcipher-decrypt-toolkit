@@ -1,0 +1,13 @@
+# never commit recovered data, keys, or firmware
+*.decrypted.sqlite
+*.sqlite
+*.db
+*.bin
+*.img
+*.key
+keys.txt
+evidence/
+outputs/
+__pycache__/
+*.pyc
+.DS_Store
